@@ -1,5 +1,7 @@
 * {
 	font-family:fantasy;
+	border-radius:10px;
+	background-color:peachpuff;
 }
 
 
@@ -49,7 +51,7 @@
 	width:65%;
 	max-width:850px;
 	padding:0px;
-	border:solid silver 4px;
+/*	border:solid silver 4px;*/
 	display:inline-block;
 	margin:0;
 }
@@ -63,7 +65,7 @@
 }
 
 #container {
-	border:solid black 4px;
+/*	border:solid black 4px;*/
 	overflow:auto;
 	
 }
@@ -95,7 +97,7 @@
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 799px) {
 	#sidebar {
 		min-width: 0;
 	}
@@ -104,6 +106,14 @@
 	}
 	#main {
 		width:65%;
+	}
+
+	#content {
+		font-size:.9em;
+	}
+
+	#sidebar ul li {
+		font-size:.8em;
 	}
 
 
@@ -134,7 +144,7 @@
 
 	.stacked {
 		display:block;
-		padding-bottom:10px;
+		margin-bottom:10px;
 	}
 }
 
